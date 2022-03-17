@@ -1,0 +1,30 @@
+#content {
+    border: 2px solid rgba(5, 175, 175, 0.73);
+    border-radius: 10px;
+    width: 420px;
+    margin-left:140px;
+    padding: 5px 15px 180px;
+    background-color: aliceblue;
+}
+
+#translate {
+    position: relative;
+    left: 38%;
+    font-size: xx-large;
+    color: #085d5d;
+}
+
+#lang {
+    margin-left:320px;
+    font-size:large;
+    color: #a94e00;
+}
+
+div {
+    float: left;
+}
+
+#sub {
+    margin-left: 320px;
+}
+

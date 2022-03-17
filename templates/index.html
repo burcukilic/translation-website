@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Translate Master</title>
+
+{% endblock %}
+
+{% block body %}
+
+    <p id = "translate">Translate Masterrrr</p>
+
+    <div>
+        <p id = "lang">TÜRKÇE</p>
+        <form action="/trtoen/1" method="POST">
+            <label for="content"></label>
+            <textarea name="content" id="content">{{ tr }}</textarea><br><br>
+            <input type="submit" value="Translate" id="sub">
+
+
+        </form>
+    </div>
+
+    <div>
+        <p id = "lang">ENGLISH</p>
+        <form action="/entotr/1" method="POST">
+            <label for="content"></label>
+            <textarea name="content" id="content">{{ en }}</textarea><br><br>
+            <input type="submit" value="Translate" id="sub">
+
+        </form>
+    </div>
+
+
+
+{% endblock %}
